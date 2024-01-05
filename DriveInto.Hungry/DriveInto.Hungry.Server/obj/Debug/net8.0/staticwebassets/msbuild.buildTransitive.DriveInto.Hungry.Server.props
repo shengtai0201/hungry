@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DriveInto.Hungry.Server.props" />
+</Project>
