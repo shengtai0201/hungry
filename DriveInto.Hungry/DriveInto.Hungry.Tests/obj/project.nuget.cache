@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "KdR4GDH3RManqXmBxJQJ11UmrinO3VXqrvKA8EmRb3nBKljrBs6En2GLOi9vLIwX2KMKWQd+mNxrfcJDM82muQ==",
+  "dgSpecHash": "WdlN2A6A3zQpoxGdBXhRpGj71gywYk8cIN8N1WLjFuDiRzJqeHZWMR39uSk+b0Z4m0Blc6AEC8QnzWWC9KzQ5w==",
   "success": true,
   "projectFilePath": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Tests\\DriveInto.Hungry.Tests.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "E:\\Packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
+    "E:\\Packages\\grpc.core.api\\2.60.0\\grpc.core.api.2.60.0.nupkg.sha512",
+    "E:\\Packages\\grpc.net.client\\2.60.0\\grpc.net.client.2.60.0.nupkg.sha512",
+    "E:\\Packages\\grpc.net.common\\2.60.0\\grpc.net.common.2.60.0.nupkg.sha512",
+    "E:\\Packages\\microsoft.codecoverage\\17.9.0-preview-23577-04\\microsoft.codecoverage.17.9.0-preview-23577-04.nupkg.sha512",
+    "E:\\Packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "E:\\Packages\\microsoft.net.test.sdk\\17.9.0-preview-23577-04\\microsoft.net.test.sdk.17.9.0-preview-23577-04.nupkg.sha512",
+    "E:\\Packages\\microsoft.testplatform.objectmodel\\17.9.0-preview-23577-04\\microsoft.testplatform.objectmodel.17.9.0-preview-23577-04.nupkg.sha512",
+    "E:\\Packages\\microsoft.testplatform.testhost\\17.9.0-preview-23577-04\\microsoft.testplatform.testhost.17.9.0-preview-23577-04.nupkg.sha512",
+    "E:\\Packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "E:\\Packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "E:\\Packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

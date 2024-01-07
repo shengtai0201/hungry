@@ -1,0 +1,16 @@
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\bin\Debug\net8.0\DriveInto.Hungry.Serving.deps.json
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\bin\Debug\net8.0\DriveInto.Hungry.Serving.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\bin\Debug\net8.0\DriveInto.Hungry.Serving.pdb
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.AssemblyInfoInputs.cache
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.AssemblyInfo.cs
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.csproj.CoreCompileInputs.cache
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.sourcelink.json
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\refint\DriveInto.Hungry.Serving.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.pdb
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\ref\DriveInto.Hungry.Serving.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\bin\Debug\net8.0\DriveInto.Hungry.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\bin\Debug\net8.0\DriveInto.Hungry.pdb
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.csproj.AssemblyReference.cache
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Serving\obj\Debug\net8.0\DriveInto.Hungry.Serving.csproj.CopyComplete

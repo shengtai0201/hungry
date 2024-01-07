@@ -1,12 +1,138 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Projects\\Hungry\\DriveInto.Hungry\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|e:\\projects\\hungry\\driveinto.hungry\\driveinto.hungry.serving\\driveinto.hungry.serving.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|solutionrelative:driveinto.hungry.serving\\driveinto.hungry.serving.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|e:\\projects\\serving\\tensorflow_serving\\apis\\classification.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFE74455-1CB2-4CBF-AE66-F038972C634C}|DriveInto.Hungry.Tests\\DriveInto.Hungry.Tests.csproj|e:\\projects\\hungry\\driveinto.hungry\\driveinto.hungry.tests\\servingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFE74455-1CB2-4CBF-AE66-F038972C634C}|DriveInto.Hungry.Tests\\DriveInto.Hungry.Tests.csproj|solutionrelative:driveinto.hungry.tests\\servingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|e:\\projects\\hungry\\driveinto.hungry\\driveinto.hungry.serving\\services\\modelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|solutionrelative:driveinto.hungry.serving\\services\\modelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F818F9AF-D268-4270-8520-6FC6CE56D4E7}|DriveInto.Hungry\\DriveInto.Hungry.csproj|e:\\projects\\hungry\\driveinto.hungry\\driveinto.hungry\\serving\\imodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F818F9AF-D268-4270-8520-6FC6CE56D4E7}|DriveInto.Hungry\\DriveInto.Hungry.csproj|solutionrelative:driveinto.hungry\\serving\\imodelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|e:\\projects\\hungry\\driveinto.hungry\\driveinto.hungry.serving\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|solutionrelative:driveinto.hungry.serving\\services\\sessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|e:\\projects\\hungry\\driveinto.hungry\\driveinto.hungry.serving\\services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{303E9273-35BA-4EA9-B643-9CFBFA469A03}|DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj|solutionrelative:driveinto.hungry.serving\\services\\predictionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "classification.proto",
+              "DocumentMoniker": "E:\\Projects\\serving\\tensorflow_serving\\apis\\classification.proto",
+              "RelativeDocumentMoniker": "..\\..\\serving\\tensorflow_serving\\apis\\classification.proto",
+              "ToolTip": "E:\\Projects\\serving\\tensorflow_serving\\apis\\classification.proto",
+              "RelativeToolTip": "..\\..\\serving\\tensorflow_serving\\apis\\classification.proto",
+              "ViewState": "AQIAABEAAAAAAAAAAAASwCoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-01-07T13:31:34.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DriveInto.Hungry.Serving",
+              "DocumentMoniker": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj",
+              "RelativeDocumentMoniker": "DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj",
+              "ToolTip": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj",
+              "RelativeToolTip": "DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-07T13:25:07.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServingTests.cs",
+              "DocumentMoniker": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Tests\\ServingTests.cs",
+              "RelativeDocumentMoniker": "DriveInto.Hungry.Tests\\ServingTests.cs",
+              "ToolTip": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Tests\\ServingTests.cs",
+              "RelativeToolTip": "DriveInto.Hungry.Tests\\ServingTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-07T10:48:16.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SessionService.cs",
+              "DocumentMoniker": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\Services\\SessionService.cs",
+              "RelativeDocumentMoniker": "DriveInto.Hungry.Serving\\Services\\SessionService.cs",
+              "ToolTip": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\Services\\SessionService.cs",
+              "RelativeToolTip": "DriveInto.Hungry.Serving\\Services\\SessionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-07T10:44:57.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PredictionService.cs",
+              "DocumentMoniker": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\Services\\PredictionService.cs",
+              "RelativeDocumentMoniker": "DriveInto.Hungry.Serving\\Services\\PredictionService.cs",
+              "ToolTip": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\Services\\PredictionService.cs",
+              "RelativeToolTip": "DriveInto.Hungry.Serving\\Services\\PredictionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-07T10:44:28.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ModelService.cs",
+              "DocumentMoniker": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\Services\\ModelService.cs",
+              "RelativeDocumentMoniker": "DriveInto.Hungry.Serving\\Services\\ModelService.cs",
+              "ToolTip": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\Services\\ModelService.cs",
+              "RelativeToolTip": "DriveInto.Hungry.Serving\\Services\\ModelService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-07T10:43:43.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IModelService.cs",
+              "DocumentMoniker": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\Serving\\IModelService.cs",
+              "RelativeDocumentMoniker": "DriveInto.Hungry\\Serving\\IModelService.cs",
+              "ToolTip": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\Serving\\IModelService.cs",
+              "RelativeToolTip": "DriveInto.Hungry\\Serving\\IModelService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-07T10:43:16.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DriveInto.Hungry.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7456aede28110e757250bba2a23b1cc74a8e826")]
 [assembly: System.Reflection.AssemblyProductAttribute("DriveInto.Hungry.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DriveInto.Hungry.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

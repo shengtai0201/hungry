@@ -1,9 +1,51 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Services\ModelService.cs" />
+		<Compile Remove="Services\PredictionService.cs" />
+		<Compile Remove="Services\SessionService.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Services\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\classification.proto" Link="Protos\classification.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\get_model_metadata.proto" Link="Protos\get_model_metadata.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\get_model_status.proto" Link="Protos\get_model_status.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\inference.proto" Link="Protos\inference.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\input.proto" Link="Protos\input.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\logging.proto" Link="Protos\logging.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\model.proto" Link="Protos\model.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\model_management.proto" Link="Protos\model_management.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\model_service.proto" Link="Protos\model_service.proto" GrpcServices="Client" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\predict.proto" Link="Protos\predict.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\prediction_log.proto" Link="Protos\prediction_log.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\prediction_service.proto" Link="Protos\prediction_service.proto" GrpcServices="Client" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\regression.proto" Link="Protos\regression.proto" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\session_service.proto" Link="Protos\session_service.proto" GrpcServices="Client" />
+		<Protobuf Include="..\..\..\serving\tensorflow_serving\apis\status.proto" Link="Protos\status.proto" />
+		<Protobuf Include="Protos\greet.proto" GrpcServices="Client" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Google.Protobuf" Version="3.25.1" />
+		<PackageReference Include="Grpc.Net.Client" Version="2.60.0" />
+		<PackageReference Include="Grpc.Tools" Version="2.60.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DriveInto.Hungry\DriveInto.Hungry.csproj" />
+	</ItemGroup>
 
 </Project>
