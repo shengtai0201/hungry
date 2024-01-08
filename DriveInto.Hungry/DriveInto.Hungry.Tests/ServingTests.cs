@@ -7,6 +7,12 @@ namespace DriveInto.Hungry.Tests
     public class ServingTests
     {
         [Test]
+        public async Task Test()
+        {
+
+        }
+
+        [Test]
         public void GetModelStatus()
         {
             using var channel = GrpcChannel.ForAddress("127.0.0.1");

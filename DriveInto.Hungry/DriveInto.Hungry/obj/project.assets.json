@@ -8,24 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "E:\\Packages": {},
+    "D:\\Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\DriveInto.Hungry.csproj",
+      "projectUniqueName": "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\DriveInto.Hungry.csproj",
       "projectName": "DriveInto.Hungry",
-      "projectPath": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\DriveInto.Hungry.csproj",
-      "packagesPath": "E:\\Packages",
-      "outputPath": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\obj\\",
+      "projectPath": "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\DriveInto.Hungry.csproj",
+      "packagesPath": "D:\\Packages",
+      "outputPath": "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "E:\\NuGet.Config",
-        "C:\\Users\\Shengtai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -34,7 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
+        "D:\\Code\\NuPkg": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
