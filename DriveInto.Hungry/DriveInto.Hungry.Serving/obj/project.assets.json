@@ -316,23 +316,24 @@
     ]
   },
   "packageFolders": {
-    "D:\\Packages": {},
+    "E:\\Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj",
+      "projectUniqueName": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj",
       "projectName": "DriveInto.Hungry.Serving",
-      "projectPath": "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj",
-      "packagesPath": "D:\\Packages",
-      "outputPath": "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\obj\\",
+      "projectPath": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\DriveInto.Hungry.Serving.csproj",
+      "packagesPath": "E:\\Packages",
+      "outputPath": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Serving\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "E:\\NuGet.Config",
+        "C:\\Users\\Shengtai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -341,15 +342,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Code\\NuPkg": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\DriveInto.Hungry.csproj": {
-              "projectPath": "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\DriveInto.Hungry.csproj"
+            "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\DriveInto.Hungry.csproj": {
+              "projectPath": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry\\DriveInto.Hungry.csproj"
             }
           }
         }

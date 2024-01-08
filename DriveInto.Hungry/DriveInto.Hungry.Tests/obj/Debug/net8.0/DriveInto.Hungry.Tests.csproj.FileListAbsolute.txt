@@ -204,3 +204,9 @@ D:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\obj\Debug\net8.0\refi
 D:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\obj\Debug\net8.0\DriveInto.Hungry.Tests.pdb
 D:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\obj\Debug\net8.0\DriveInto.Hungry.Tests.genruntimeconfig.cache
 D:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\obj\Debug\net8.0\ref\DriveInto.Hungry.Tests.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\bin\Debug\net8.0\nunit.engine.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\bin\Debug\net8.0\nunit.engine.api.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\bin\Debug\net8.0\nunit.engine.core.dll
+E:\Projects\Hungry\DriveInto.Hungry\DriveInto.Hungry.Tests\bin\Debug\net8.0\testcentric.engine.metadata.dll
