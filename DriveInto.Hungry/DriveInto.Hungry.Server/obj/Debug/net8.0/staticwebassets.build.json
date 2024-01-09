@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "F08DpZXsGZT0fm+5KauPAMoGxTG8q6d4NIb2uRCOMDg=",
+  "Hash": "CO4KyDmK5bqqJOcB96mbNPDabrMeRIvcQMWdC4b4NFI=",
   "Source": "DriveInto.Hungry.Server",
   "BasePath": "_content/DriveInto.Hungry.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "E:\\Projects\\Hungry\\DriveInto.Hungry\\driveinto.hungry.client\\driveinto.hungry.client.esproj",
+      "Identity": "D:\\Projects\\Hungry\\DriveInto.Hungry\\driveinto.hungry.client\\driveinto.hungry.client.esproj",
       "Version": 2,
       "Source": "driveinto.hungry.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

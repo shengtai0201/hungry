@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "E:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Server\\..\\driveinto.hungry.client",
+"WorkingDirectory": "D:\\Projects\\Hungry\\DriveInto.Hungry\\DriveInto.Hungry.Server\\..\\driveinto.hungry.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
