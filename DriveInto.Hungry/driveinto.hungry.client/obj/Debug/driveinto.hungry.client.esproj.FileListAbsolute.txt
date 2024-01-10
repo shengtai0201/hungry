@@ -1,2 +1,0 @@
-E:\Projects\Hungry\DriveInto.Hungry\driveinto.hungry.client\obj\Debug\driveinto.hungry.client.esproj.CoreCompileInputs.cache
-D:\Projects\Hungry\DriveInto.Hungry\driveinto.hungry.client\obj\Debug\driveinto.hungry.client.esproj.CoreCompileInputs.cache

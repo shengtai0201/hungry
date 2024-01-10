@@ -1,6 +1,0 @@
-@DriveInto.Hungry.Server_HostAddress = http://localhost:5216
-
-GET {{DriveInto.Hungry.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
