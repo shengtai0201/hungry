@@ -34,6 +34,8 @@ namespace DriveInto.Hungry.Tests
             }
         }
 
+        // todo: 自特定 proto file 遞迴查找 import
+
         [Test]
         public void GetProtos()
         {
@@ -48,13 +50,13 @@ namespace DriveInto.Hungry.Tests
         [Test]
         public void SetProtos()
         {
-            var targetPath = "D:\\Projects\\Hungry\\DriveInto.Hungry.Serving\\Protos";
-            var format = "<!--<Protobuf Include=\"{0}\" GrpcServices=\"Client\" />-->";
+            var targetPath = "E:\\Projects\\Hungry\\DriveInto.Hungry.Serving\\Protos";
+            var format = "<Protobuf Include=\"{0}\" GrpcServices=\"Client\" />";
 
             var files = Directory.GetFiles(targetPath, "*.proto", SearchOption.AllDirectories);
             foreach (var file in files)
             {
-                var value = string.Format(format, file.Replace("D:\\Projects\\Hungry\\DriveInto.Hungry.Serving\\", string.Empty));
+                var value = string.Format(format, file.Replace("E:\\Projects\\Hungry\\DriveInto.Hungry.Serving\\", string.Empty));
                 Console.WriteLine(value);
             }
         }

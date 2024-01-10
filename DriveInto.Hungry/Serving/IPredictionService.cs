@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace DriveInto.Hungry.Serving
 {
-    public interface IModelService
+    public interface IPredictionService
     {
-        Task GetModelStatusAsync();
+        Task ClassifyAsync();
+
+        Task RegressAsync();
+
+        Task PredictAsync();
+
+        Task GetModelMetadataAsync();
     }
 }

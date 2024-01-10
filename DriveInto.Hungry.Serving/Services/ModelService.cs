@@ -12,10 +12,5 @@ namespace DriveInto.Hungry.Serving.Services
         {
             throw new NotImplementedException();
         }
-
-        public Task HandleReloadConfigRequestAsync()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
