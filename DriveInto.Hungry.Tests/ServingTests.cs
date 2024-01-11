@@ -19,44 +19,129 @@ namespace DriveInto.Hungry.Tests
 
         private void DirectoryCopy(string sourcePath, string targetPath)
         {
-            foreach (var file in Directory.GetFiles(sourcePath, "*.proto", SearchOption.TopDirectoryOnly))
-            {
-                var path = file.Replace(sourcePath, targetPath);
-                File.Copy(file, path, true);
-            }
-
             foreach (var directory in Directory.GetDirectories(sourcePath, "*", SearchOption.TopDirectoryOnly))
             {
                 var path = directory.Replace(sourcePath, targetPath);
-                Directory.CreateDirectory(path);
+                if (!Directory.Exists(path))
+                    Directory.CreateDirectory(path);
 
                 DirectoryCopy(directory, path);
             }
         }
 
-        // todo: 自特定 proto file 遞迴查找 import
+        private async Task<IDictionary<string, IList<string>>> GetProtoValuesAsync(params string[] paths)
+        {
+            var result = new Dictionary<string, IList<string>>();
+
+            foreach (var path in paths)
+            {
+                foreach (var file in Directory.GetFiles(path, "*.proto", SearchOption.AllDirectories))
+                {
+                    var values = new List<string>();
+
+                    var lines = await File.ReadAllLinesAsync(file);
+                    foreach (var line in lines)
+                    {
+                        if (line.StartsWith("import"))
+                        {
+                            var item = line.Split(new char[] { '\"', ';' }, StringSplitOptions.RemoveEmptyEntries).Last();
+                            values.Add(item);
+                        }
+                    }
+
+                    result.Add(file, values);
+                }
+            }
+
+            return result;
+        }
+
+        private class Proto
+        {
+            public KeyValuePair<string, IList<string>> Current { get; set; }
+
+            public ICollection<Proto> Children { get; set; } = new List<Proto>();
+        }
+
+        private void SetProtoValues(Proto proto, IDictionary<string, IList<string>> values)
+        {
+            foreach (var child in proto.Current.Value)
+            {
+                if (child.StartsWith("google/protobuf"))
+                    continue;
+
+                try
+                {
+                    var value = values.Single(x => x.Key.Replace("D:\\Projects\\serving\\", string.Empty).Replace("D:\\Projects\\tensorflow\\", string.Empty).Replace("\\", "/").EndsWith(child));
+                    var item = new Proto { Current = value };
+                    proto.Children.Add(item);
+
+                    SetProtoValues(item, values);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(ex.ToString());
+                }
+            }
+        }
+
+        private void FileCopy(Proto proto, string targetPath)
+        {
+            var destFileName = proto.Current.Key.Replace("D:\\Projects\\serving", targetPath).Replace("D:\\Projects\\tensorflow", targetPath);
+            if (!File.Exists(destFileName))
+                File.Copy(proto.Current.Key, destFileName);
+
+            foreach (var child in proto.Children)
+                FileCopy(child, targetPath);
+        }
 
         [Test]
-        public void GetProtos()
+        public async Task GetProtos()
         {
             var targetPath = "D:\\Projects\\Hungry\\DriveInto.Hungry.Serving\\Protos";
+            DirectoryCopy("D:\\Projects\\serving", targetPath);
+            DirectoryCopy("D:\\Projects\\tensorflow", targetPath);
 
-            foreach (var sourcePath in new string[] { "D:\\Projects\\serving", "D:\\Projects\\tensorflow" })
-                DirectoryCopy(sourcePath, targetPath);
+            var values = await GetProtoValuesAsync("D:\\Projects\\serving", "D:\\Projects\\tensorflow");
+
+            var modelServiceProto = new Proto { Current = values.Single(x => x.Key.EndsWith("tensorflow_serving\\apis\\model_service.proto")) };
+            SetProtoValues(modelServiceProto, values);
+            FileCopy(modelServiceProto, targetPath);
+
+            var predictionServiceProto = new Proto { Current = values.Single(x => x.Key.EndsWith("tensorflow_serving\\apis\\prediction_service.proto")) };
+            SetProtoValues(predictionServiceProto, values);
+            FileCopy(predictionServiceProto, targetPath);
 
             EmptyDirectory(targetPath);
         }
 
-        [Test]
-        public void SetProtos()
+        private void SetProtoList(Proto proto, IList<string> paths)
         {
-            var targetPath = "E:\\Projects\\Hungry\\DriveInto.Hungry.Serving\\Protos";
-            var format = "<Protobuf Include=\"{0}\" GrpcServices=\"Client\" />";
+            foreach(var child in proto.Children)
+                SetProtoList(child, paths);
 
-            var files = Directory.GetFiles(targetPath, "*.proto", SearchOption.AllDirectories);
-            foreach (var file in files)
+            if (!paths.Contains(proto.Current.Key))
+                paths.Add(proto.Current.Key);
+        }
+
+        [Test]
+        public async Task SetProtos()
+        {
+            var paths = new List<string>();
+            var values = await GetProtoValuesAsync("D:\\Projects\\serving", "D:\\Projects\\tensorflow");
+
+            var modelServiceProto = new Proto { Current = values.Single(x => x.Key.EndsWith("tensorflow_serving\\apis\\model_service.proto")) };
+            SetProtoValues(modelServiceProto, values);
+            SetProtoList(modelServiceProto, paths);
+
+            var predictionServiceProto = new Proto { Current = values.Single(x => x.Key.EndsWith("tensorflow_serving\\apis\\prediction_service.proto")) };
+            SetProtoValues(predictionServiceProto, values);
+            SetProtoList(predictionServiceProto, paths);
+
+            var format = "<Protobuf Include=\"{0}\" GrpcServices=\"Client\" />";
+            foreach (var path in paths)
             {
-                var value = string.Format(format, file.Replace("E:\\Projects\\Hungry\\DriveInto.Hungry.Serving\\", string.Empty));
+                var value = string.Format(format, path.Replace("D:\\Projects\\serving\\", string.Empty).Replace("D:\\Projects\\tensorflow\\", string.Empty));
                 Console.WriteLine(value);
             }
         }

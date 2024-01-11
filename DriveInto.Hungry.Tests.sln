@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveInto.Hungry.Tests", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveInto.Hungry", "DriveInto.Hungry\DriveInto.Hungry.csproj", "{0CBFB0C2-A3B7-411A-B672-79D6FB640FE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveInto.Hungry.Serving", "DriveInto.Hungry.Serving\DriveInto.Hungry.Serving.csproj", "{965D4083-B279-4CDF-96FA-E5A740D08DA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriveInto.Hungry.Serving", "DriveInto.Hungry.Serving\DriveInto.Hungry.Serving.csproj", "{8EDBA8B9-A223-487B-B750-6363E009CAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{0CBFB0C2-A3B7-411A-B672-79D6FB640FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CBFB0C2-A3B7-411A-B672-79D6FB640FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CBFB0C2-A3B7-411A-B672-79D6FB640FE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{965D4083-B279-4CDF-96FA-E5A740D08DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{965D4083-B279-4CDF-96FA-E5A740D08DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{965D4083-B279-4CDF-96FA-E5A740D08DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{965D4083-B279-4CDF-96FA-E5A740D08DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDBA8B9-A223-487B-B750-6363E009CAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDBA8B9-A223-487B-B750-6363E009CAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDBA8B9-A223-487B-B750-6363E009CAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDBA8B9-A223-487B-B750-6363E009CAF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

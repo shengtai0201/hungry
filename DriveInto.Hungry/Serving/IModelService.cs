@@ -8,6 +8,6 @@ namespace DriveInto.Hungry.Serving
 {
     public interface IModelService
     {
-        Task GetModelStatusAsync();
+        Task GetModelStatusAsync(string modelName);
     }
 }

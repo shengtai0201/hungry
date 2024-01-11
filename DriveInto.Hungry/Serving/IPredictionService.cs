@@ -14,6 +14,6 @@ namespace DriveInto.Hungry.Serving
 
         Task PredictAsync();
 
-        Task GetModelMetadataAsync();
+        Task GetModelMetadataAsync(string modelName);
     }
 }
