@@ -8,11 +8,11 @@ namespace DriveInto.Hungry.Serving
 {
     public interface IPredictionService
     {
-        Task ClassifyAsync();
+        Task ClassifyAsync(string modelName);
 
-        Task RegressAsync();
+        Task RegressAsync(string modelName);
 
-        Task PredictAsync();
+        Task PredictAsync(string modelName);
 
         Task GetModelMetadataAsync(string modelName);
     }
