@@ -13,7 +13,13 @@ TODO
 ### 開發環境
 - Visual Studio Community 2022 Preview
 - Visual Studio Code
+- WSL: Ubuntu 22.04.3 LTS
+- Anaconda3 2003.09-0
+- Python 3.11.7
+- TensorFlow 2.15.0
+- AutoKeras 1.1.0
 - Android Studio Jellyfish
+- BlueStacks (Android 11 64-bit)
 
 ### 系統營運
 - 系統安裝
